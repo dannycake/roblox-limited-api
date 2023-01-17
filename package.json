@@ -1,0 +1,22 @@
+{
+  "name": "roblox-items",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r dotenv/config server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^8.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fastify": "^4.11.0",
+    "quick.db": "^9.0.8",
+    "remove": "^0.1.5",
+    "superagent": "^8.0.6"
+  }
+}
