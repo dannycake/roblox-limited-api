@@ -7,7 +7,8 @@ const fastify = new Fastify({
     logger: true
 });
 
-fastify.register(routes);
+fastify
+    .register(routes);
 
 const listen = async () => {
     try {
