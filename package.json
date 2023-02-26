@@ -13,7 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "@fastify/caching": "^8.2.0",
-    "better-sqlite3": "^8.0.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "fastify": "^4.11.0",
